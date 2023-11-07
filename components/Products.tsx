@@ -1,5 +1,5 @@
 "use client";
-import React, { useContext, useState, useEffect, useRef } from "react";
+import React, { useContext, useState, useEffect } from "react";
 import Card from "./ui/Card";
 import { CartContext } from "@/context/Cart.context";
 import { IProduct } from "@/interfaces/IProducts.types";
