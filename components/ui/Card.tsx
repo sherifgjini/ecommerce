@@ -28,7 +28,7 @@ const Card: React.FC<CardProps> = ({ title, imgUrl, price, stock, description, o
         </div>
         <div className="flex items-center gap-2">
           <Button onClick={onClick} className="flex-1">Add to card</Button>
-          <Button type="white" icon={<HeartIcon className="w-6 h-6" />} />
+          <Button type="white" icon={<HeartIcon className="w-4 h-4" />} />
         </div>
       </div>
     </div>
